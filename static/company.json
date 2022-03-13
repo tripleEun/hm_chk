@@ -1,0 +1,24 @@
+{
+    "menu" : "홈체크",
+    "href" : "/homecheck",
+    "type" : 0,
+    "icon" : "<i class='icon-arrow'></i>",
+    "items" : [
+        {        
+            "item" : "회사 소개",
+            "icon" : "",
+            "href" : "/company"
+        },
+        {
+            "item" : "보도 자료",
+            "icon" : "",
+            "href" : "/news"
+        },
+        {
+            "item" : "이벤트",
+            "icon" : "",
+            "href" : "/event"
+        }
+    ] 
+
+}

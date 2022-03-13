@@ -1,0 +1,29 @@
+{
+    "menu" : "서비스",
+    "href" : "/service",
+    "type" : 1,
+    "icon" : "<i class='icon-arrow'></i>",
+    "items" : [
+        {
+            "item" : "사전 점검 대행",
+            "icon" : "",
+            "href" : "/preinspect"
+        },
+        {
+            "item" : "주택 점검",
+            "icon" : "",
+            "href" : "/hminspect"
+        },
+        {
+            "item" : "전세 품질 관리",
+            "icon" : "",
+            "href" : "/rentQA"
+        },
+        {
+            "item" : "인테리어 점검",
+            "icon" : "",
+            "href" : "/interiorinspect"
+        }
+    ]
+
+}

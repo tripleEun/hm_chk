@@ -1,0 +1,28 @@
+{
+    "menu" : "고객지원",
+    "href" : "/support",
+    "type" : 0,
+    "icon" : "<i class='icon-arrow'></i>",
+    "items" : [
+        {
+            "item" : "고객 리뷰",
+            "icon" : "",
+            "href" : "/review"
+        },
+        {
+            "item" : "자주하는 질문",
+            "icon" : "",
+            "href" : "/question"
+        },
+        {
+            "item" : "질문과 답변",
+            "icon" : "",
+            "href" : "/que&ans"
+        },
+        {
+            "item" : "이용약관",
+            "icon" : "",
+            "href" : "/agreement"
+        }
+    ]
+}

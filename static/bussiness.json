@@ -1,0 +1,8 @@
+{
+    "menu" : "비즈니스",
+    "href" : "/business",
+    "type" : 0,
+    "icon" : "<i class='icon-external'></i>",
+    "window" : true,
+    "items" : []
+}

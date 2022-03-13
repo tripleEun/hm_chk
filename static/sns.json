@@ -1,0 +1,23 @@
+{
+    "menu" : "SNS",
+    "href" : "/sns",
+    "type" : 0,
+    "icon" : "<i class='icon-arrow'></i>",
+    "items" : [
+        {
+            "item" : "카카오 채널",
+            "icon" : "",
+            "href" : "/kakaochannel"
+        },
+        {
+            "item" : "네이버 블로그",
+            "icon" : "",
+            "href" : "/naverblog"
+        },
+        {
+            "item" : "유튜브",
+            "icon" : "",
+            "href" : "/youtube"
+        }
+    ]
+}
