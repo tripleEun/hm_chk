@@ -19,6 +19,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-image: url(@/asset/img/main_product_01.jpg);
 }
 
 #main .service .service__container{
@@ -79,7 +80,8 @@
 }
 
 #main .signature__wrapper > li:nth-child(4){
-    background-image: url(../img/main_signature_0401.png);
+    /* background-image: url(../img/main_signature_0401.png); */
+    background-image: url(@/asset/img/main_signature_0401.png);
 }
 
 #main .signature__wrapper > li dt{

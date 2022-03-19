@@ -3,8 +3,8 @@
         <div class="header__container page__inner">
             <div id="logo">
                 <!-- <img src="@/asset/img/header_logo.jpg" /> -->
-                <img :src="img.url" />
-                <!-- <a href="javascript:;">HomeCheck</a> -->
+                <!-- <img :src="img.url" /> -->
+                <a href="javascript:;">HomeCheck</a>
             </div>
             <div id="gnb">
                 <nav>
@@ -77,7 +77,7 @@ export default {
         return {
             // pic
             company, service, support, sns, bussiness,
-            img : {url : require("@/asset/img/header_logo.jpg")}
+            // img : {url : require("@/asset/img/header_logo.jpg")}
         }
     }
 }

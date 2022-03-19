@@ -1,5 +1,5 @@
 @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
-/* @import url(/asset/css/reset.css); */
+@import url(@/asset/css/reset.css);
 
 html { 
     font-size: 62.5%; 
@@ -37,13 +37,13 @@ body{
 }
 
 .ico-check{
-    background-image: url(/asset/img/check_01.png);
+    background-image: url(@/asset/img/check_01.png);
     background-repeat: no-repeat;
     background-size: 3rem;
 }
 
 .ico-arrowR{
-    background-image: url(/asset/img/arrow_right.png);
+    background-image: url(@/asset/img/arrow_right.png);
     background-repeat: no-repeat;
     background-size: 2rem;
 }
@@ -61,12 +61,12 @@ header .header__container{
     align-items: center;
 }
 
-header #logo > img{
+header #logo > a{
     display: inline-block;
     width: 13.2rem;
     height: 2rem;
     color: #fff;
-    background: url(/asset/img/header_logo.jpg) no-repeat;
+    background: url(@/asset/img/header_logo.png) no-repeat;
     background-size: 100%;
     text-indent: -9999px;
 }
@@ -115,15 +115,15 @@ header #gnb .nav-wrapper.on > dt > a{
 }
 
 header #gnb .nav-wrapper:not(.on) .depth01{
-    background-image: url(/asset/img/arrow_down_01.png);
+    background-image: url(@/asset/img/arrow_down_01.png);
 }
 
 header #gnb .nav-wrapper.on .depth01{
-    background-image: url(/asset/img/arrow_up_02.png);
+    background-image: url(@/asset/img/arrow_up_02.png);
 }
 
 header #gnb .nav-wrapper .go-business{
-    background-image: url(/asset/img/arrow_diagonal.png);
+    background-image: url(@/asset/img/arrow_diagonal.png);
 }
 
 header #gnb .nav-wrapper > dd{
@@ -131,7 +131,7 @@ header #gnb .nav-wrapper > dd{
     position: absolute;
     top: 100%;
     left: 0;
-    background-image: url(/asset/img/arrow_down_01.png);
+    background-image: url(@/asset/img/arrow_down_01.png);
     background-position: right center;
     background-repeat: no-repeat;
 }
@@ -169,15 +169,15 @@ header #gnb .nav-wrapper .depth02-wrapper [class*="sns-"]{
 }
 
 header #gnb .nav-wrapper .depth02-wrapper .sns-kakao{
-    background-image: url(/asset/img/sns_kakao.png);
+    background-image: url(@/asset/img/sns_kakao.png);
 }
 
 header #gnb .nav-wrapper .depth02-wrapper .sns-blog{
-    background-image: url(/asset/img/sns_blog.png);
+    background-image: url(@/asset/img/sns_blog.png);
 }
 
 header #gnb .nav-wrapper .depth02-wrapper .sns-youtube{
-    background-image: url(/asset/img/sns_youtube.png);
+    background-image: url(@/asset/img/sns_youtube.png);
 }
 
 header #gnb .easy-btns{
@@ -219,7 +219,7 @@ footer .company .company__text{
     width: 100%;
     max-width: 48rem;
     padding-top: 4rem;
-    background: url(/asset/img/footer_logo.png) no-repeat;
+    background: url(@/asset/img/footer_logo.png) no-repeat;
     background-size: 13.2rem;
     font-size: 1rem;
     letter-spacing: -0.2px;

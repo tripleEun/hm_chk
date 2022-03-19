@@ -3,9 +3,7 @@
         <section id="main">
             <div class="main__header">
                 <div class="service">
-                    <!-- <div class="service__image" style="background-image: url(./asset/img/main_product_01.jpg);"></div> -->
-                    <img class="service__image" :src="img.url" />
-                    
+                    <div class="service__image" style="background-image"></div>
                     <div class="service__container">
                         <dl class="service__text">
                             <dt>
