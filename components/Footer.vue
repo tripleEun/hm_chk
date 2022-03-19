@@ -7,58 +7,41 @@
                     <ul class="sitemap__wrapper">
                         <li>
                             <dl>
-                                <dt class="point">홈체크</dt>
-                                <dd>
-                                    <a href="javascript:;">회사소개</a>
-                                </dd>
-                                <dd>
-                                    <a href="javascript:;">회사소개</a>
-                                </dd>
-                                <dd>
-                                    <a href="javascript:;">회사소개</a>
-                                </dd>
+                                <dt class="point">{{ company.menu }}</dt>
+                                <div v-for="name in company.items" :key="name.index">
+                                    <dd>
+                                        <router-link :to="name.href">{{ name.item }}</router-link>
+                                    </dd>
+                                </div>
+                            </dl>
+                        <li>
+                            <dl>
+                                <dt class="point">{{ service.menu }}</dt>
+                                <div v-for="name in service.items" :key="name.index">
+                                    <dd>
+                                        <router-link :to="name.href">{{ name.item }}</router-link>
+                                    </dd>
+                                </div>
                             </dl>
                         </li>
                         <li>
                             <dl>
-                                <dt class="point">홈체크</dt>
-                                <dd>
-                                    <a href="javascript:;">회사소개</a>
-                                </dd>
-                                <dd>
-                                    <a href="javascript:;">회사소개</a>
-                                </dd>
-                                <dd>
-                                    <a href="javascript:;">회사소개</a>
-                                </dd>
+                                <dt class="point">{{ support.menu }}</dt>
+                                <div v-for="name in support.items" :key="name.index">
+                                    <dd>
+                                        <router-link :to="name.href">{{ name.item }}</router-link>
+                                    </dd>
+                                </div>
                             </dl>
                         </li>
                         <li>
                             <dl>
-                                <dt class="point">홈체크</dt>
-                                <dd>
-                                    <a href="javascript:;">회사소개</a>
-                                </dd>
-                                <dd>
-                                    <a href="javascript:;">회사소개</a>
-                                </dd>
-                                <dd>
-                                    <a href="javascript:;">회사소개</a>
-                                </dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt class="point">홈체크</dt>
-                                <dd>
-                                    <a href="javascript:;">회사소개</a>
-                                </dd>
-                                <dd>
-                                    <a href="javascript:;">회사소개</a>
-                                </dd>
-                                <dd>
-                                    <a href="javascript:;">회사소개</a>
-                                </dd>
+                                <dt class="point">{{ sns.menu }}</dt>
+                                <div v-for="name in sns.items" :key="name.index">
+                                    <dd>
+                                       <router-link :to="name.href">{{ name.item }}</router-link>
+                                    </dd>
+                                </div>
                             </dl>
                         </li>
 
@@ -102,8 +85,17 @@
 </template>
 
 <script>
-export default {
+import company from '@/static/company.json';
+import service from '@/static/service.json';
+import support from '@/static/support.json';
+import sns from '@/static/sns.json';
 
+export default {
+    data() {
+        return {
+            company, service, support, sns
+        }
+    }
 }
 </script>
 
