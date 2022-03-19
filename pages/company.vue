@@ -82,79 +82,14 @@
                             <li v-for="item in history" :key="item.index">
                                 <dl>
                                     <dt class="point">{{ item.year }}</dt>
-                                    
-                                    <dd>
-                                        <div v-for="content in item.items" :key="content.index">
-                                            <strong>{{ content.month }}</strong>
-                                            <span>
-                                                {{ content.description }}
-                                            </span>
-                                        </div>
-                                    </dd>
-                                    
-                                </dl>
-                            </li>
-
-
-                            <!-- <li>
-                                <dl>
-                                    <dt class="point">2018</dt>
-                                    <dd>
-                                        <strong>02월</strong>
+                                    <dd v-for="content in item.items" :key="content.index">
+                                        <strong>{{ content.month }}</strong>
                                         <span>
-                                            MBC 뉴스 출현
-                                        </span>
-                                    </dd>
-                                    <dd>
-                                        <strong>02월</strong>
-                                        <span>
-                                            MBC 뉴스 출현
+                                            {{ content.description }}
                                         </span>
                                     </dd>
                                 </dl>
                             </li>
-                            <li>
-                                <dl>
-                                    <dt class="point">2019</dt>
-                                <dd>
-                                        <strong>02월</strong>
-                                        <span>
-                                            MBC 뉴스 출현
-                                        </span>
-                                    </dd>
-                                    <dd>
-                                        <strong>02월</strong>
-                                        <span>
-                                            누적 점검 8,000 세대 달성<br/>
-                                            KCSI(주택 점검 부문) 1위 수상
-                                        </span>
-                                    </dd>
-                                </dl>
-                            </li>
-                            <li>
-                                <dl>
-                                    <dt class="point">2020</dt>
-                                    <dd>
-                                        <strong>02월</strong>
-                                        <span>
-                                            MBC 뉴스 출현
-                                        </span>
-                                    </dd>
-                                    <dd>
-                                        <strong>02월</strong>
-                                        <span>
-                                            MBC 뉴스 출현
-                                        </span>
-                                    </dd>
-                                    <dd>
-                                        <strong>02월</strong>
-                                        <span>
-                                            KT IS 업무 협약 및 누적관리세대수 35세대 돌파<br/>
-                                            KCSI(주택 점검 부문) 1위 수상
-                                        </span>
-                                    </dd>
-                                </dl> -->
-                            <!-- </li> -->
                         </ul>
                     </div>
                 </div>

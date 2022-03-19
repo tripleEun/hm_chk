@@ -13,7 +13,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel :'image', type : 'image/png', href: '@/asset/img' }
+      { rel :'image', type : 'image/png', href: '@/asset/img' },
+      { rel :'image', type : 'image/jpg', href: '@/asset/img' }
     ],
   },
 

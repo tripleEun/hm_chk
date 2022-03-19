@@ -1,5 +1,5 @@
 @import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
-/* @import url(.asset/css/reset.css); */
+/* @import url(/asset/css/reset.css); */
 
 html { 
     font-size: 62.5%; 
@@ -61,12 +61,12 @@ header .header__container{
     align-items: center;
 }
 
-header #logo > a{
+header #logo > img{
     display: inline-block;
     width: 13.2rem;
     height: 2rem;
     color: #fff;
-    background: url(/asset/img/header_logo.png) no-repeat;
+    background: url(/asset/img/header_logo.jpg) no-repeat;
     background-size: 100%;
     text-indent: -9999px;
 }
