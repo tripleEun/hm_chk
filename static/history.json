@@ -1,0 +1,94 @@
+[
+    {
+        "year" : "2017",
+        "items" : [
+            {
+                "month" : "02월",
+                "description" : "점검 법인 설립"
+            }
+        ]
+    },
+    {
+        "year" :  "2018",
+        "items" : [
+            {
+                "month" : "01월",
+                "description" : "주택 점검 '고급형 서비스' 출시"
+            },
+            {
+                "month" : "10월",
+                "description" : "누적 점검 1,000세대 달성"
+            }
+        ]
+    },
+    {
+        "year" : "2019",
+        "items" : [
+            {
+                "month" : "03월",
+                "description" : "MBC 뉴스 출연"
+            },
+            {
+                "month" : "04월",
+                "description" : "업계 최초 특허 출원"
+            },
+            {
+                "month" : "05월",
+                "description" : "누적 점검 5,000세대 달성"
+            },
+            {
+                "month" : "06월",
+                "description" : "채널A 뉴스 방영"
+            },
+            {
+                "month" : "07월",
+                "description" : "SBS 뉴스 출연"
+            },
+            {
+                "month" : "09월",
+                "description" : "기업부설 연구소 설립 정부지원사업 초기창업패키지 선정"
+            },
+            {
+                "month" : "12월",
+                "description" : "누적 점검 8,000세대 달성 KCSI(주택 점검 부문) 1위 수상"
+            }
+        ]
+    },
+    {
+        "year" : "2020",
+        "items" : [
+            {
+                "month" : "01월",
+                "description" : "벤처기업 인증 ISO 9001 인증"
+            },
+            {
+                "month" : "02월",
+                "description" : "누적 점검 13,000세대 달성"
+            },
+            {
+                "month" : "03월",
+                "description" : "롯데 하이마트 업무 협약"
+            },
+            {
+                "month" : "05월",
+                "description" : "정부지원 사업 창업 도약패키지 선정"
+            },
+            {
+                "month" : "08월",
+                "description" : "사회적 기업 상상우리 업무 협약"
+            },
+            {
+                "month" : "09월",
+                "description" : "부동산 중개 직방과 마케팅 협약"
+            },
+            {
+                "month" : "10월",
+                "description" : "홈체크 중개법인 설립 및 관리서비스 런칭"
+            },
+            {
+                "month" : "12월",
+                "description" : "KT IS 업무 협약 및 누적관리 세대 수 35세대 돌파 KCSI(주택 점검 부문) 1위 수상"
+            }
+        ]
+    }
+]

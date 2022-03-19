@@ -79,18 +79,22 @@
                             <span class="point">대한민국 주택점검을 대표하는 기업으로 성장하였습니다.</span>
                         </h4>
                         <ul class="history__wrapper">
-                            <li>
+                            <li v-for="item in history" :key="item.index">
                                 <dl>
-                                    <dt class="point">2017</dt>
-                                    <dd>
-                                        <strong>02월</strong>
-                                        <span>
-                                            MBC 뉴스 출현
-                                        </span>
-                                    </dd>
+                                    <dt class="point">{{ item.year }}</dt>
+                                    <div v-for="content in item.items" :key="content.index">
+                                        <dd>
+                                            <strong>{{ content.month }}</strong>
+                                            <span>
+                                                {{ content.description }}
+                                            </span>
+                                        </dd>
+                                    </div>
                                 </dl>
                             </li>
-                            <li>
+
+
+                            <!-- <li>
                                 <dl>
                                     <dt class="point">2018</dt>
                                     <dd>
@@ -147,8 +151,8 @@
                                             KCSI(주택 점검 부문) 1위 수상
                                         </span>
                                     </dd>
-                                </dl>
-                            </li>
+                                </dl> -->
+                            <!-- </li> -->
                         </ul>
                     </div>
                 </div>
@@ -159,8 +163,14 @@
 </template>
 
 <script>
+import history from '@/static/history.json'
+
 export default {
-   
+    data() {
+        return {
+            history
+        }
+    }
 }
 
 </script>
