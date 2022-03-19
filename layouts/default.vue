@@ -1,53 +1,55 @@
 <template>
-    <div>
+    <header>
+        
         <div class="header__container page__inner">
             <div id="logo">
-                <img src="../asset/img/header_logo.jpg" alt="">
-                <!-- <img :src="pic"> -->
-                <nuxt-link to="/">HomeCheck</nuxt-link>
-                <!-- <a href="javascript:;">HomeCheck</a> -->
+                <!-- <img src="../asset/img/header_logo.jpg" alt="">-->
+               
+                <!-- <nuxt-link to="/">HomeCheck</nuxt-link> -->
+                <a href="javascript:;">HomeCheck</a>
             </div>
             <div id="gnb">
                 <nav>
                     <dl class="nav-wrapper on">
                         <dt><a class="depth01" href="javascript:;">{{ company.menu }}</a></dt>
-                        <div v-for="name in company.items" :key="name.href"> 
-                            <dd>
+                        <dd>
+                            <div v-for="name in company.items" :key="name.href"> 
                                 <ul class="depth02-wrapper">
                                     <li><router-link :to="name.href" class="depth02">{{ name.item }}</router-link></li>
                                 </ul>
-                            </dd>
-                        </div>
+                            </div>
+                        </dd>
                     </dl>
                     <dl class="nav-wrapper">
                         <dt><a class="depth01" href="javascript:;">{{ service.menu }}</a></dt>
-                        <div v-for="name in service.items" :key="name.href">
-                            <dd>
+                        <dd>
+                            <div v-for="name in service.items" :key="name.href">
                                 <ul class="depth02-wrapper">
                                     <li><router-link :to="name.href" class="depth02">{{ name.item }}</router-link></li>
                                 </ul>
-                            </dd>
-                        </div>
+                            </div>
+                        </dd>
                     </dl>
                     <dl class="nav-wrapper">
                         <dt><a class="depth01" href="javascript:;">{{ support.menu }}</a></dt>
-                        <div v-for="name in support.items" :key="name.href">
-                            <dd>
+                        <dd>
+                            <div v-for="name in support.items" :key="name.href">
                                 <ul class="depth02-wrapper">
                                     <li><router-link :to="name.href" class="depth02">{{ name.item }}</router-link></li>
                                 </ul>
-                            </dd>
-                        </div>
+                        
+                            </div>
+                        </dd>
                     </dl>
                     <dl class="nav-wrapper">
                         <dt><a class="depth01" href="javascript:;">{{ sns.menu }}</a></dt>
-                        <div v-for="name in sns.items" :key="name.href">
-                            <dd>
+                        <dd>
+                            <div v-for="name in sns.items" :key="name.href">
                                 <ul class="depth02-wrapper">
                                     <li><router-link :to="name.href" class="depth02 sns-kakao" >{{ name.item }}</router-link></li>
                                 </ul>
-                            </dd>
-                        </div>
+                            </div>
+                        </dd>
                     </dl>
                     <dl class="nav-wrapper">
                         <dt><a class="go-business" href="javascript:;">{{ bussiness.menu }}</a></dt>
@@ -61,7 +63,7 @@
             
         </div>
         <nuxt />
-    </div>
+    </header>
     
 </template>
 
@@ -77,7 +79,7 @@ export default {
     data() {
         return {
             // pic
-            company, service, support, sns, bussiness
+            company, service, support, sns, bussiness,
         }
     }
 }

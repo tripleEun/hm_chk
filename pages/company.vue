@@ -82,14 +82,16 @@
                             <li v-for="item in history" :key="item.index">
                                 <dl>
                                     <dt class="point">{{ item.year }}</dt>
-                                    <div v-for="content in item.items" :key="content.index">
-                                        <dd>
+                                    
+                                    <dd>
+                                        <div v-for="content in item.items" :key="content.index">
                                             <strong>{{ content.month }}</strong>
                                             <span>
                                                 {{ content.description }}
                                             </span>
-                                        </dd>
-                                    </div>
+                                        </div>
+                                    </dd>
+                                    
                                 </dl>
                             </li>
 

@@ -8,40 +8,40 @@
                         <li>
                             <dl>
                                 <dt class="point">{{ company.menu }}</dt>
-                                <div v-for="name in company.items" :key="name.index">
-                                    <dd>
+                                <dd>
+                                    <div v-for="name in company.items" :key="name.index">
                                         <router-link :to="name.href">{{ name.item }}</router-link>
-                                    </dd>
-                                </div>
+                                    </div>
+                                </dd>
                             </dl>
                         <li>
                             <dl>
                                 <dt class="point">{{ service.menu }}</dt>
-                                <div v-for="name in service.items" :key="name.index">
-                                    <dd>
+                                <dd>
+                                    <div v-for="name in service.items" :key="name.index">
                                         <router-link :to="name.href">{{ name.item }}</router-link>
-                                    </dd>
-                                </div>
+                                    </div>
+                                </dd>
                             </dl>
                         </li>
                         <li>
                             <dl>
                                 <dt class="point">{{ support.menu }}</dt>
-                                <div v-for="name in support.items" :key="name.index">
-                                    <dd>
+                                <dd>
+                                    <div v-for="name in support.items" :key="name.index">
                                         <router-link :to="name.href">{{ name.item }}</router-link>
-                                    </dd>
-                                </div>
+                                    </div>
+                                </dd>
                             </dl>
                         </li>
                         <li>
                             <dl>
                                 <dt class="point">{{ sns.menu }}</dt>
-                                <div v-for="name in sns.items" :key="name.index">
-                                    <dd>
-                                       <router-link :to="name.href">{{ name.item }}</router-link>
-                                    </dd>
-                                </div>
+                                <dd>
+                                    <div v-for="name in sns.items" :key="name.index">
+                                        <router-link :to="name.href">{{ name.item }}</router-link>
+                                    </div>
+                                </dd>
                             </dl>
                         </li>
 
