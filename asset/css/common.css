@@ -36,6 +36,43 @@ body {
   border: 1px solid #116a66;
 }
 
+.btn03 {
+  display: inline-block;
+  width: 23rem;
+  height: 5.6rem;
+  line-height: 5.6rem;
+  background-color: #116a66;
+  color: #fff;
+  border-radius: 0.4rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.btn04 {
+  display: inline-block;
+  height: 3.6rem;
+  line-height: 3.6rem;
+  padding: 0 2rem;
+  font-size: 1.4rem;
+  color: #116a66;
+  border: 1px solid #116a66;
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+  font-weight: 600;
+}
+
+.btn05 {
+  display: inline-block;
+  height: 3.6rem;
+  line-height: 3.6rem;
+  background-color: #e5e5e5;
+  padding: 0 3.6rem;
+  border-radius: 0.4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
 .ico-check {
   background-image: url(@/asset/img/check_01.png);
   background-repeat: no-repeat;
@@ -269,4 +306,5 @@ footer .sitemap__wrapper>li dd {
   line-height: 1.3rem;
   margin-bottom: 1.1rem;
 }
+
 
