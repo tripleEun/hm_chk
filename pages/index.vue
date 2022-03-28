@@ -64,9 +64,12 @@
                     <ul class="product__wrapper">
                         <li>
                             <div class="product__inner page__inner">
-                                <div class="product__image--frame" style="background-image: url(./asset/img/main_product_01.jpg);"></div>
+                                <!-- <div class="product__image--frame" style="background-image: url('~/asset/img/main_product_01.jpg');"></div> -->
+                                <div class="product__image--frame" style="background-image"></div>
                                 <div class="product__text">
                                     <dl class="ico-check">
+
+                                        
                                         <dt>
                                             우리 집, 인테리어, 과연<br/>
                                             <strong>안전할까요?</strong>
@@ -83,7 +86,8 @@
                         </li>
                         <li>
                             <div class="product__inner page__inner">
-                                <div class="product__image" style="background-image: url(./asset/img/main_product_02.jpg);"></div>
+                                <!-- <div class="product__image" style="background-image: url(./asset/img/main_product_02.jpg);"></div> -->
+                                <div class="product__image" style="background-image"></div>
                                 <div class="product__text">
                                     <dl class="ico-check">
                                         <dt>
@@ -102,7 +106,8 @@
                         </li>
                         <li>
                             <div class="product__inner page__inner">
-                                <div class="product__image--frame" style="background-image: url(./asset/img/main_product_03.jpg);"></div>
+                                <!-- <div class="product__image--frame" style="background-image: url(@/asset/img/main_product_03.jpg);"></div> -->
+                                <div class="product__image--frame" style="background-image"></div>
                                 <div class="product__text">
                                     <dl class="ico-check">
                                         <dt>
@@ -439,8 +444,7 @@ export default {
         return {
             components : {
                 Footer,
-            },
-            img : {url : require("@/asset/img/main_product_01.jpg")}
+            }
         }
     },
     
